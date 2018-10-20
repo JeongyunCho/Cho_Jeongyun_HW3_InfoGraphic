@@ -1,0 +1,27 @@
+{
+  "name": "cho_jeongyun_hw3_infographic",
+  "version": "1.0.0",
+  "description": "HW3 InfoGraphic Project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-imagemin": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeongyunCho/cho_jeongyun_HW3_InfoGraphic.git"
+  },
+  "author": "Cho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeongyunCho/cho_jeongyun_HW3_InfoGraphic/issues"
+  },
+  "homepage": "https://github.com/JeongyunCho/cho_jeongyun_HW3_InfoGraphic#readme"
+}
