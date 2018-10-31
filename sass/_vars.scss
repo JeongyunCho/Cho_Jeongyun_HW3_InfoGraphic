@@ -10,3 +10,24 @@ $textW: #ffffff;
 //font
 $font: 'Roboto', sans-serif;
 
+//font size
+$bigF: 3.125em;
+$medF: 2.5em;
+$smaF: 1.875em;
+
+//
+@mixin centerBlock {
+    margin: 0 auto;
+    display: block;
+}
+@mixin widthBot($width,$margin){
+    width: $width;
+    margin-bottom: $margin;
+}
+
+@mixin whiteRound{
+    background-color:#ffffff;
+    border-radius: 2.156rem;
+    @include widthBot(50%,0);
+    @include centerBlock;
+}

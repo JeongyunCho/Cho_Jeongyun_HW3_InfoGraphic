@@ -1,0 +1,20 @@
+#rank{
+    .whiteRound{
+    @include whiteRound;
+    h3{
+        font-size: $medF;
+    }
+}
+    p{
+        color: $textW;
+        font-size: $smaF;
+        text-align: right;
+        width: 75%;
+        margin-top: 0.5rem;
+    }
+    img{
+        width:70%;
+    }
+    margin-bottom:0;
+    padding-bottom:5rem;
+}

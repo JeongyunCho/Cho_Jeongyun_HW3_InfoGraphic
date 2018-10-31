@@ -1,0 +1,37 @@
+#bkgrdRed{
+    background-color: $bckgrdR;
+}
+#trend{
+    .whiteRound{
+        background-color:#ffffff;
+        border-radius: 2.156rem;
+        @include widthBot(50%,0);
+        @include centerBlock;
+        h3{
+            font-size: $medF;
+            color: $textR;
+            margin-bottom: 3rem;
+        }
+    }
+    h4{
+        font-size:$smaF;
+        color: $textW;
+        margin-bottom: 2rem;
+    }
+   
+      #textImageSec{
+          width:25%;
+          display:inline-block;
+      }
+      #arrow{
+          width: 5%;
+          display:inline-block;
+          margin:0 5%;
+      }
+      #videoSec{
+          width: 25%;
+          display:inline-block;
+      }
+      
+
+}
