@@ -1,19 +1,31 @@
 #rank{
     .whiteRound{
     @include whiteRound;
-    h3{
-        font-size: $medF;
+    @media only screen and (min-width: 700px) {
+    border-radius: 2.156rem;
     }
-}
+    h3{
+        @media only screen and (min-width: 700px) {
+            font-size: $medF;
+        }
+        font-size: $phoneF;
+        }
+    }
     p{
+        @media only screen and (min-width: 700px) {
+            font-size: $smaF;
+        }
         color: $textW;
-        font-size: $smaF;
+        font-size: .8rem;
         text-align: right;
         width: 75%;
         margin-top: 0.5rem;
     }
     img{
+        @media only screen and (min-width: 700px) {
         width:70%;
+        }
+        width:100%;
     }
     margin-bottom:0;
     padding-bottom:5rem;

@@ -4,19 +4,28 @@
 #trend{
     .whiteRound{
         background-color:#ffffff;
-        border-radius: 2.156rem;
         @include widthBot(50%,0);
         @include centerBlock;
+        @media only screen and (min-width: 700px) {
+        border-radius: 2.156rem;
+        }
         h3{
-            font-size: $medF;
+            
+            font-size: $phoneF;
             color: $textR;
             margin-bottom: 3rem;
+            @media only screen and (min-width: 700px) {
+                font-size: $medF;
+            }
         }
     }
     h4{
-        font-size:$smaF;
+        font-size: $phoneF;
         color: $textW;
         margin-bottom: 2rem;
+        @media only screen and (min-width: 700px) {
+            font-size:$smaF;
+        }
     }
    
       #textImageSec{

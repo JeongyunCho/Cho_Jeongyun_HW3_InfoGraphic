@@ -1,6 +1,9 @@
 #searchService{
     h3{
-        font-size: $medF;
+        @media only screen and (min-width: 700px) {
+            font-size: $medF;
+        }
+        font-size: $phoneF;
         color: $textW;
         span{
             text-decoration: underline;
@@ -8,11 +11,18 @@
         margin-bottom: 3rem;
     }
     .minPlayer{
-        width:10%;
-        margin: 1%;
+        display: none;
+        @media only screen and (min-width: 700px) {
+            width:10%;
+            margin: 1%;
+            display: inline-block;
+        }
     }
     .maxPlayer{
-        width:20%;
+        width:60%;
+        @media only screen and (min-width: 700px) {
+            width:20%;
+        }
     }
    
 }

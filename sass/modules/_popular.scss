@@ -1,8 +1,14 @@
 #popular{
     .whiteRound{
     @include whiteRound;
+    @media only screen and (min-width: 700px) {
+        border-radius: 2.156rem;
+        }
     h3{
-        font-size: $medF;
+        @media only screen and (min-width: 700px) {
+            font-size: $medF;
+        }
+        font-size: $phoneF;
         margin-bottom: 1rem;
         span{
             color: $textR;
@@ -11,13 +17,20 @@
     }
 
     .reasons{
-        width:10%;
-        margin: 6%;
+        width:13%;
+        margin: 4%;
+        @media only screen and (min-width: 700px) {
+            margin: 6%;
+            width:10%;
+        }
         display:inline-block;
         h4{
+            @media only screen and (min-width: 700px) {
+                font-size: 2rem;
+            }
             margin-top: 1rem;
             color: $textW;
-            font-size: 2rem;
+            font-size: .8rem;
        
         }
     }
