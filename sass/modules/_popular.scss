@@ -1,0 +1,35 @@
+#popular{
+    .whiteRound{
+    @include whiteRound;
+    h3{
+        font-size: $medF;
+        margin-bottom: 1rem;
+        span{
+            color: $textR;
+        }
+    }
+    }
+
+    .reasons{
+        width:10%;
+        margin: 6%;
+        display:inline-block;
+        h4{
+            margin-top: 1rem;
+            color: $textW;
+            font-size: 2rem;
+       
+        }
+    }
+    #path{
+        width:70%;
+    }
+    margin-bottom:0;
+    #phone{
+        width: 50%;
+    }
+}
+#bkgrdW{
+    background-image: linear-gradient($bckgrdR 85%, transparent 85%);
+}
+

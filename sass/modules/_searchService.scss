@@ -1,0 +1,18 @@
+#searchService{
+    h3{
+        font-size: $medF;
+        color: $textW;
+        span{
+            text-decoration: underline;
+        }
+        margin-bottom: 3rem;
+    }
+    .minPlayer{
+        width:10%;
+        margin: 1%;
+    }
+    .maxPlayer{
+        width:20%;
+    }
+   
+}

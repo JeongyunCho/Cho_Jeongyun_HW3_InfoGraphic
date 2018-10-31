@@ -1,0 +1,21 @@
+header{
+   
+    h2{
+      font-size: $bigF;
+      margin: 3rem 0;
+      font-weight: bold;
+    }
+    .center{
+        @include centerBlock;
+    }
+    #mainLogo{
+       @include widthBot(50%,2rem);
+    }
+    #tv{
+        @include widthBot(70%,3rem);
+    }
+    #miniLogo{
+        @include widthBot(5%,0);
+        padding-bottom: 2rem;
+    }
+}
