@@ -4,7 +4,8 @@ The basis of this assignment is to take complex information and present it in th
 efficient and easily understood way
 
 ## Infographic Build
-!(alt text)[https://github.com/JeongyunCho/Cho_Jeongyun_HW3_InfoGraphic/blob/master/images/cho_jeongyun_iid-svg.png]
+![cho_jeongyun_iid-svg](https://user-images.githubusercontent.com/31936762/47841042-ae0d4580-dd8e-11e8-9719-e3c0752b1519.png)
+
 Source of the data: WiseApp / Mezo Media
 
 To build this one page Infographic App I used waypoints to trigger the function at certain point of the screen and used TweenMax and TimelineMax which are Greensock libraries that help to animate SVG. I also added some css directly into svg to get the code separate from main files.
