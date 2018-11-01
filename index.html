@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Infographic</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<title>Youtube Infographic</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -12,27 +14,28 @@
   <body>
 		<h1 class="hidden">Youtube Infographic</h1>
 		<header>
-			<h2></h2>
-			<img src="images/Asset 6.svg" alt="youtube logo" id="mainLogo" class="center">
-<div id="bkgrdR">
-			<img src="images/Asset 7.svg" alt="tv" id="tv" class="center">
-			<img src="images/Asset 8.svg" alt="mini youtube logo" id="miniLogo" class="center">
+			<div id="mainHead"><h2></h2></div>
+			<object data="images/mainLogo.svg" type="image/svg+xml" id="mainLogo" class="center svg"></object>	 
+		<div id="bkgrdR">
+		<object data="images/tv.svg" type="image/svg+xml" id="tv" class="center svg"></object>	
+		<object data="images/miniLogo.svg" type="image/svg+xml" id="miniLogo" class="center svg"></object>	 
+	
 		</div>
 		</header>
 		<div id="bkgrdRed">
 		<section id="trend">
-			<div class="whiteRound"><h3 id="head1"></h3></div>
+			<div id="whiteRound1" class="whiteRound"><div id="subHead1"><h3 id="head1"></h3></div></div>
 			<div class="middle">
 			<div id="textImageSec">
 				<h4>Text + Image</h4>
-				<img src="images/Asset 10.svg" alt="text_image">
+				<object data="images/text.svg" type="image/svg+xml" id="textSvg" class="svg"></object>	 
 			</div>
-			<div id="arrow">
-				<img src="images/Asset 9.svg" alt="arrow">
+			<div id="arrowD">
+				<object data="images/arrow.svg" type="image/svg+xml" id="arrow" class="svg"></object>
 			</div>
 			<div id="videoSec">
 				<h4>Video</h4>
-				<img src="images/Asset 11.svg" alt="video">
+				<object data="images/video.svg" type="image/svg+xml" id="videoSvg" class="svg"></object>
 			</div>
 			</div>
 		</section>
@@ -41,11 +44,11 @@
 				<h3>Beyond watching simple videos <br>
 				<span>Video-Based Search Service</span></h3>
 				<div class="middle">
-					<img src="images/Asset 12.svg" alt="miniPlayer" class="minPlayer">
-					<img src="images/Asset 12.svg" alt="miniPlayer2" class="minPlayer">
-					<img src="images/Asset 13.svg" alt="Big Player" class="maxPlayer">
-					<img src="images/Asset 12.svg" alt="miniPlayer3" class="minPlayer">
-					<img src="images/Asset 12.svg" alt="miniPlayer4" class="minPlayer">
+					<object data="images/miniPlayer.svg" type="image/svg+xml" id="miniPlayer1" class="svg minPlayer"></object>
+					<object data="images/miniPlayer.svg" type="image/svg+xml" id="miniPlayer2" class="svg minPlayer"></object>
+					<object data="images/mainPlayer.svg" type="image/svg+xml" id="mainPlayer1" class="svg maxPlayer"></object>
+					<object data="images/miniPlayer.svg" type="image/svg+xml" id="miniPlayer3" class="svg minPlayer"></object>
+					<object data="images/miniPlayer.svg" type="image/svg+xml" id="miniPlayer4" class="svg minPlayer"></object>
 				</div>
 			</section>
 
@@ -54,14 +57,15 @@
 				<div class="whiteRound"><h3 id="head3"></h3></div>
 				<p>In 2016  <br>
 						(Unit: $ Million)</p>
-				<img src="images/Asset 14.svg" alt="Video Advertising Cost Ranking">
+				<object data="images/graph_1.svg" type="image/svg+xml" id="graph1" class="svg"></object>
 				</section>
 
 				<section id="timeRank">
 						<div class="whiteRound"><h3 id="head4"></h3></div>
 						<p>In 2017 [Android] <br>
 								(Million Hours)</p>
-						<img src="images/Asset 15.svg" alt="Time Spent on Leading Apps Ranking">
+						<object data="images/graph_2.svg" type="image/svg+xml" id="graph2" class="svg"></object>
+						
 				</section>
 			</div>
 		</div>
@@ -70,25 +74,25 @@
 					<div class="whiteRound"><h3>How did <span>YouTube</span> become popular?</h3></div>
 					<div class="middle">
 						<div class="reasons">
-							<img src="images/Asset 32.svg" alt="coins">
+							<img src="images/gps.svg" alt="coins">
 							<h4 id="el1">Low YouTube Network Fee</h4>
 						</div>
 						<div class="reasons">
-							<img src="images/Asset 33.svg" alt="thumb up">
+							<img src="images/oldman.svg" alt="thumb up">
 							<h4 id="el2">High-Quality Video</h4>
 						</div>
 						<div class="reasons">
-							<img src="images/Asset 34.svg" alt="old man">
+							<img src="images/thumb.svg" alt="old man">
 							<h4 id="el3">Increase in Old Aged Users</h4>
 						</div>	
 						<div class="reasons">
-							<img src="images/Asset 35.svg" alt="gps">
+							<img src="images/coin.svg" alt="gps">
 							<h4 id="el4">Increase in Countryside Users</h4>
 						</div>
 					</div>
-					<img src="images/Asset 20.svg" alt="number path" id="path">
+					<object data="images/numbers.svg" type="image/svg+xml" id="path" class="svg"></object>
+					<object data="images/phone.svg" type="image/svg+xml" id="phone" class="svg"></object>
 				
-					<img src="images/Asset 21.svg" alt="mobile phone" id="phone">	
 				
 			</section>
 		</div>
@@ -101,5 +105,7 @@
 
 
 	<script src="js/main.js"></script>
+	<script src="js/animation.js"></script>
+	<script src="js/tv.js"></script>
 	</body>
 </html>
