@@ -194,7 +194,7 @@ var waypoint = new Waypoint({
 		TweenMax.from(minlogo, 3, {scale:0, ease:Bounce.easeOut, delay:1});
         TweenMax.from(subhead, 1, {scale:0, ease:Back.easeOut.config(2), delay:2.5});
         TweenMax.from(whiteRound1, 1, {scale:0, ease:Back.easeOut.config(3), delay:2});
-        minlogoAgain();
+  
     }
 
     function textVideoSec(){
